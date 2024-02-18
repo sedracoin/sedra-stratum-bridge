@@ -6,7 +6,7 @@ stratum_port: :5555
 # For a list of public nodes, run `nslookup mainnet-dnsseed.daglabs-dev.com` 
 # uncomment for to use a public node
 # sedrad_address: 46.17.104.200:22110
-sedrad_address: localhost:22110
+sedrad_address: 57.129.18.85:22110
 
 # min_share_diff: only accept shares of the specified difficulty (or higher) from 
 # the miner(s).  Higher values will reduce the number of shares submitted, thereby 
