@@ -1,0 +1,32 @@
+{
+    "isFavorite": false,
+    "items": [
+        {
+            "coin": "SDR",
+            "pool_ssl": false,
+            "dpool_ssl": false,
+            "miner": "srbminer",
+            "miner_config": {
+                "url": "127.0.0.1:5555",
+                "algo": "sedra",
+                "worker": "%WORKER_NAME%",
+                "user_config": "--disable-cpu"
+            },
+            "pool_geo": []
+        },
+        {
+            "coin": "SDR",
+            "pool_ssl": false,
+            "dpool_ssl": false,
+            "miner": "custom",
+            "miner_alt": "sd_bridge",
+            "miner_config": {
+                "url": "YOUR_SEDRAD_NODE_IP_HERE:22110",
+                "miner": "sd_bridge",
+                "template": "doesnt.matter",
+                "install_url": "https://github.com/sedracoin/sedra-stratum-bridge/releases/download/v1.0.0/sd_bridge-1.1.2_hive.tar.gz"
+            },
+            "pool_geo": []
+        }
+    ]
+}
